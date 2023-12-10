@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Lista de Tareas</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        <form id="formularioTarea">
+            <input type="text" id="entradaTarea" placeholder="Agregar nueva tarea" required>
+            <button type="button" id="agregarBtn">Agregar</button>
+        </form>
+        <div class="contenido">
+            <div id="tituloColumna">
+                <span>ID</span>
+                <span id="titulotarea">Tarea</span>
+            </div>
+
+            <ul id="listaTareas"></ul>
+        </div>
+        <div id="contadores">
+            <p>Total de tareas: <span id="totalTareas"></span></p>
+            <p>Tareas realizadas: <span id="tareasCompletadas"></span></p>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

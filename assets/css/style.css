@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#formularioTarea {
+    margin-bottom: 2rem;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#entradaTarea {
+    flex-grow: 1;
+    padding: 1.4rem;
+    box-sizing: border-box;
+}
+
+#agregarBtn {
+    width: 7rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-left: 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#tituloColumna {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#tituloColumna span {
+    flex-grow: 1;
+    margin-left: 5rem;
+    margin-right: 7rem;
+}
+
+#listaTareas {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin: 1.5rem 0;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.tarea-completada {
+    background-color: #d4edda;
+}
+
+.tarea span {
+    flex-grow: 1;
+    margin: 0 5rem;
+    text-align: start;
+}
+
+.checkbox {
+    transform: scale(1.5);
+    margin-right: 3rem;
+}
+
+.eliminar {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.eliminar:hover {
+    background-color: #c82333;
+}
+
+#contadores {
+    text-align: center;
+    margin-top: 2rem;
+}
